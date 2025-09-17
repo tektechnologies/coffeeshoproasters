@@ -14,6 +14,7 @@ html,
   background: #8b4513;
   color: white;
   padding: 0.75rem 0;
+  margin-top: 1rem;
   overflow: hidden;
   position: relative;
   border-bottom: 3px solid #654321;
@@ -22,7 +23,7 @@ html,
 .marquee-content {
   display: flex;
   align-items: center;
-  animation: marquee 20s linear infinite;
+  animation: marquee 160s linear infinite;
   white-space: nowrap;
 }
 
