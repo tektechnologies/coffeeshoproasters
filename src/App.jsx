@@ -93,6 +93,17 @@ function App() {
           </div>
         </section>
 
+        {/* Coffee Cups Section */}
+        <section className="coffee-cups-section">
+          <div className="coffee-cups-container">
+            <img
+              src="/src/images/coffee-cups.png"
+              alt="Coffee cups"
+              className="coffee-cups-image"
+            />
+          </div>
+        </section>
+
         {/* Footer */}
         <footer className="footer">
           <p>

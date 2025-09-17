@@ -153,6 +153,68 @@ html,
   font-size: 1.3rem;
 }
 
+/* Instagram Section */
+.instagram-section {
+  background: #f8f8f8;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.instagram-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.instagram-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instagram-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.instagram-media {
+  width: 100%;
+  max-width: 540px;
+}
+
+/* Coffee Cups Section */
+.coffee-cups-section {
+  background: #f8f8f8;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.coffee-cups-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.coffee-cups-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.coffee-cups-image:hover {
+  transform: scale(1.02);
+}
+
 /* Footer */
 .footer {
   background: #1f1f1f;
