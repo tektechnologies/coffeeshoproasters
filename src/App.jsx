@@ -3,6 +3,30 @@ import "./styles/main.css";
 function App() {
   return (
     <>
+      {/* Navigation with Marquee */}
+      <nav className="nav-marquee">
+        <div className="marquee-content">
+          <img
+            src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=40&q=80"
+            alt="Coffee bean"
+            className="marquee-icon"
+          />
+          <span className="marquee-text">Coffee Shop Roasters coming soon</span>
+          <img
+            src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=40&q=80"
+            alt="Coffee bean"
+            className="marquee-icon"
+          />
+          <span className="marquee-text">Coffee Shop Roasters coming soon</span>
+          <img
+            src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=40&q=80"
+            alt="Coffee bean"
+            className="marquee-icon"
+          />
+          <span className="marquee-text">Coffee Shop Roasters coming soon</span>
+        </div>
+      </nav>
+
       <main className="app">
         {/* Hero Section */}
         <section className="hero">
@@ -24,8 +48,8 @@ function App() {
         <section className="about">
           <h2 className="about-title">Our Specialty</h2>
           <p className="about-text">
-            At Coffee Shop Roasters, we’re passionate about creating rich, balanced
-            espresso. Our unique blend combines the smooth nuttiness of
+            At Coffee Shop Roasters, we’re passionate about creating rich,
+            balanced espresso. Our unique blend combines the smooth nuttiness of
             Brazilian beans, the bright fruitiness of Guatemalan coffee, and the
             bold, earthy character of Indian Malabar.
           </p>
