@@ -1,6 +1,9 @@
 import "./styles/main.css";
+import { useState } from "react";
+import RecipeInputForm from "./forms/RecipeInputForm";
 
 function App() {
+  const [showRecipeForm, setShowRecipeForm] = useState(false);
   return (
     <>
       {/* Navigation with Marquee */}
@@ -43,6 +46,60 @@ function App() {
             </p>
           </div>
         </section>
+
+        {/* Navigation Bar */}
+        <nav className="main-nav">
+          <div className="nav-container">
+            <div className="nav-logo">
+              <span>Coffee Shop Roasters</span>
+            </div>
+            <div className="nav-links">
+              <button
+                className="nav-link"
+                onClick={() => {
+                  console.log("Button clicked! Current state:", showRecipeForm);
+                  setShowRecipeForm(!showRecipeForm);
+                  console.log("New state will be:", !showRecipeForm);
+                }}
+              >
+                {showRecipeForm ? "Hide Recipe Form" : "Add Recipe"}
+              </button>
+            </div>
+          </div>
+        </nav>
+
+        {/* Recipe Form Section */}
+        {showRecipeForm && (
+          <section className="recipe-form-section">
+            <div
+              style={{
+                background: "red",
+                color: "white",
+                padding: "10px",
+                textAlign: "center",
+              }}
+            >
+              DEBUG: Form should be visible now! State:{" "}
+              {showRecipeForm.toString()}
+            </div>
+            <RecipeInputForm />
+          </section>
+        )}
+
+        {/* Debug info */}
+        <div
+          style={{
+            position: "fixed",
+            top: "10px",
+            right: "10px",
+            background: "black",
+            color: "white",
+            padding: "10px",
+            zIndex: 9999,
+          }}
+        >
+          Form State: {showRecipeForm.toString()}
+        </div>
 
         {/* About Section */}
         <section className="about">

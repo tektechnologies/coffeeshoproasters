@@ -5,35 +5,43 @@ A modern, responsive website for Coffee Shop Roasters - showcasing our passion f
 ## 🌟 Features
 
 ### Navigation
+
 - **Animated Marquee**: Eye-catching scrolling banner announcing "Coffee Shop Roasters coming soon" with coffee bean icons
 - **Responsive Design**: Works seamlessly across all devices
 
 ### Hero Section
+
 - **Compelling Headline**: "Coffee Shop Roasters" with elegant typography
 - **Brand Story**: Highlights our small-batch roasted espresso blends
 - **Background Image**: Beautiful espresso cup imagery from Unsplash
 
 ### About Section
+
 - **Our Specialty**: Detailed description of our unique blend philosophy
 - **Coffee Expertise**: Explains how we combine Brazilian nuttiness, Guatemalan fruitiness, and Malabar earthiness
 - **Visual Appeal**: Professional espresso imagery
 
 ### Coffee Beans Showcase
+
 Three distinct coffee origins featured:
 
 #### 🇧🇷 Brazil
+
 - **Profile**: Nutty, smooth, and chocolatey notes
 - **Visual**: High-quality coffee bean imagery
 
 #### 🇬🇹 Guatemala  
+
 - **Profile**: Bright, fruity, and lively acidity
 - **Visual**: Premium coffee bean photography
 
 #### 🇮🇳 Malabar
+
 - **Profile**: Bold, earthy, and spicy undertones
 - **Visual**: Rich coffee bean imagery
 
 ### Coffee Cups Gallery
+
 - **Visual Showcase**: Beautiful coffee cups imagery
 - **Interactive Elements**: Hover effects and smooth animations
 - **Professional Presentation**: Rounded corners and elegant shadows
@@ -57,23 +65,27 @@ Three distinct coffee origins featured:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/tektechnologies/coffeeshoproasters.git
 cd coffeeshoproasters
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -112,6 +124,7 @@ Visit the live website to experience our coffee roasters showcase.
 ## 📱 Responsive Design
 
 The website is fully responsive and optimized for:
+
 - Desktop computers
 - Tablets
 - Mobile phones
